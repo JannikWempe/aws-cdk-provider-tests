@@ -1,0 +1,31 @@
+{
+  "name": "notes-app",
+  "version": "0.1.0",
+  "bin": {
+    "app": "bin/app.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.87.0",
+    "@aws-sdk/util-dynamodb": "^3.87.0",
+    "aws-cdk-lib": "2.24.1",
+    "axios": "^0.26.1",
+    "constructs": "^10.0.0",
+    "lodash.merge": "4.6.2",
+    "source-map-support": "^0.5.16"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "8.10.93",
+    "@types/lodash.merge": "4.6.6",
+    "@types/node": "^16.11.7",
+    "aws-cdk": "2.24.1",
+    "esbuild": "0.14.28",
+    "ts-node": "^9.0.0",
+    "typescript": "~3.9.7"
+  }
+}
